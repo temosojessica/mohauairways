@@ -1,0 +1,27 @@
+
+
+<div class="container">
+    <h1 class="headT">WELCOME TO MOHAU AIRWAYS INTERNATIONAL AIRPORT</h1>
+  <div class="header"> 
+      <h2>To Book Our Flight Please complete the following Form</h2>
+
+      <h1 class="headTT">Booking Form</h1>
+
+    
+  </div>
+  <div class="userInput">
+    <input type="text" placeholder="Name" [(ngModel)]="name"><br><br>
+    <input type="text" placeholder="Surname" [(ngModel)]="surname"><br><br>
+    <input type="text" placeholder="age" [(ngModel)]="age"><br><br>
+    <input type="date" placeholder="Date"[(ngModel)]="date"><br><br>
+    <input type="text" placeholder="travel Type" [(ngModel)]="travelType"><br><br>
+
+    <button (click) = "submit()" >Submit</button>
+  </div>
+
+      
+  </div>
+
+<router-outlet></router-outlet>
+
+

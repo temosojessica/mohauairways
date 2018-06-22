@@ -1,0 +1,22 @@
+
+    li,ul{
+        float: left;
+        list-style-type: none;
+        position: relative;
+        left: -10;
+        color: white;
+        padding: 0 0 0 25px;
+       
+    }
+    body{
+        text-align: center;
+    }
+    
+    .booked{
+        background-color: antiquewhite;
+        width: 30%;
+        margin: auto;
+        margin-top: 90px;
+        border-radius: 9px;
+        padding: 6px;
+    }

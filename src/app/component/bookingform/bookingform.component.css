@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    text-align: center;
+}
+.header{
+    margin:100px 0 0 0;
+}
+.userInput input{
+    padding: 0.5em 1em;
+    text-align: center;
+}
+.userInput button{
+    padding: 0.5em 1em;
+    width: 22%;
+}
+.headT{
+    background-color: rgb(19, 94, 233);
+    color: white;
+    left: 0;
+}
+.userInput{
+    border: 1px solid red;
+    width: 30%;
+    margin: auto;
+    padding: 9px;
+}
+.headTT{
+    background-color: rgb(19, 94, 233);
+    color: white;
+    width: 20%;
+    margin: auto;
+}
